@@ -1,0 +1,46 @@
+header {
+  background: #007DB8;
+}
+
+.logo {
+    width: auto;
+    background:url('assets/img/dell_logo.jpg') no-repeat;
+  }
+
+nav {
+    justify-self: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; 
+    padding-top: 15px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 1.5em;
+    font-size: .8em;
+}
+
+nav ul li a:hover {
+    background: rgb(13, 145, 206);
+}
+
+.containernav {
+  width: 90%;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0.3em;
+  display: grid;
+  grid-template-columns: 70px auto;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+.containernav a {
+  color: white;
+}

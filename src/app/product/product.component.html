@@ -1,0 +1,23 @@
+<br>
+<div *ngFor="let item of items" class="card">
+  <img [src]="item.itemImg" style="width: 80px; height: 80px;">
+  <h3>{{ item.itemDesc }}</h3>
+  <p class=" price">RM {{ item.itemPrice }}</p>
+  <p class=" price">
+    <button (click)="onDeduct(item)">-</button>
+    {{ item.itemQuantity }}
+    <button (click)="onAdd(item)">+</button>
+  </p>
+</div>
+
+<footer>
+  <div class="footerDiv">
+    <ul>
+      <li><button (click)="addCart()">Add To Cart</button></li>
+      <li><button (click)="clearCart()">Clear My Cart</button></li>
+      <li>
+        <p>Total: RM {{ totalAmt }}</p>
+      </li>
+    </ul>
+  </div>
+</footer>

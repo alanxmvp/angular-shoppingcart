@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body, html {
+    height: 100%;
+    /* margin: 0 auto; */
+}
+
+body {
+    font-size: 12px;
+    height: 100%-80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(202, 199, 199);
+  }
+  
+  .footerDiv {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .footerDiv ul {
+    list-style-type: none;
+    margin-right: 1em;
+    float: right;
+  }
+  
+  .footerDiv ul li {
+    display: inline-block;
+    padding-right: 0.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: rgb(165, 175, 76);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(126, 134, 50);
+  }
